@@ -39,6 +39,7 @@ public class University {
 		//Fix address
 		Address scottNewAddress = new Address("456 Oak Avenue NE", "Calgary", "Alberta", "T2N 1N4", "Canada");
 		scott.setAddress(scottNewAddress);
+		//Check if new address is valid
 		scott.hasValidAddress();	
 		
 		//Check if students are eligible to enroll in Trump's program next year

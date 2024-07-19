@@ -12,7 +12,7 @@ public class Nonfiction extends Paperback {
 	}
 	
 	public String coverArt() {
-		return "Method coverArt called from Nonfiction"; 			
+		return "Method coverArt called from Paperback"; 			
 	}
 
 	public Category getDeweyClassification() {

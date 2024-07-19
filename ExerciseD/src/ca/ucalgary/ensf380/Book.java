@@ -7,9 +7,8 @@ public class Book {
 	
 	public Book() {}
 	
-	public Book(String isbn, int publicationYear, int pages) {
+	public Book(String isbn, int pages) {
 		this.isbn = isbn;
-		this.publicationYear = publicationYear;
 		this.pages = pages;
 	}
 
